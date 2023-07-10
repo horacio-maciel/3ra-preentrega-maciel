@@ -261,9 +261,9 @@ body h1{
 
 }
 .videos{
-    /* background-color: rgb(49 130 141);
+    background-color: rgb(49 130 141);
     color: rgb(5, 5, 5);
-    text-align: center; */
+    text-align: center;
 
     background-color: rgba(250, 2, 43, 0.329);
     text-align: center;
@@ -275,7 +275,7 @@ body h1{
     font-size: 25px;
     
 
-.variedad{
+/* .variedad{ 
     justify-content: center;
     background-color: rgba(250, 2, 43, 0.329);
     text-align: center;
@@ -285,7 +285,7 @@ body h1{
     padding: 0;
     color: rgb(3, 48, 48);
     font-size: 20px; */
-}
+} */
 
 .variedad {
   grid-column: 1 / span 2;
@@ -299,4 +299,75 @@ body h1{
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 10px;
 } 
- 
+.container footer{
+    background-color: rgb(60, 14, 119);
+    color: rgb(5, 5, 5);
+}
+
+@media (max-width:768px){
+  .header-nosotros{
+
+    grid-template-columns: 1fr; 
+
+    grid-template-areas: 
+
+      "img1"
+
+      "img2"
+
+      "img3"
+
+      "img4"
+
+      "img5"
+
+      "img6";   
+}
+
+    }
+
+    a{  /*Todos los elementos <a>*/
+    
+     
+    
+        display:inline-block;
+        
+        padding:10px;
+        
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        
+        background-color: azure;
+        
+        color:rgb(10, 10, 60);
+        
+         
+        
+        }
+        a:hover{
+            background-color: cadetblue;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            text-decoration: none;
+        }
+        a:link{ 
+    
+            background-color: rgb(55, 62, 68);
+        
+            color: rgb(250, 249, 255);
+        
+        }
+        a:active {
+    
+            background-color: yellow;
+        
+            color: black;
+        
+        }
+        a:visited {
+    
+            background-color: rgb(126, 61, 119);
+        
+            color: #ebe6e6;
+        
+        }
