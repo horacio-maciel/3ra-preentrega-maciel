@@ -1,13 +1,16 @@
-
-
 H1 {
-    background-color: rgba(250, 2, 43, 0.329);
+    
     text-align: center;
     text-transform: uppercase;
-    font-family:serif;
-    padding: 0;
+    font-family: serif;
+    padding: 20px;
     color: rgb(3, 48, 48);
 }
+h2{
+    font-family: 'Dancing Script', cursive;
+    padding: 30px;  
+}
+
 
 .header li {
     display: block;
@@ -40,10 +43,10 @@ H1 {
 }
 
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
     font-family: sans-serif;
-    
+
 
 }
 
@@ -116,6 +119,7 @@ p {
     background-color: #185c58;
     color: white
 }
+
 .h1 {
     background-color: rgba(10, 175, 187, 0.5);
     text-align: center;
@@ -146,7 +150,7 @@ p {
     background-color: #11c5fcd7;
     justify-items: center;
     align-content: center;
-    }
+}
 
 .product ul {
     background-color: rgba(11, 247, 117, 0.808);
@@ -170,13 +174,15 @@ p {
     align-content: space-around;
     justify-content: space-around;
     flex-direction: column-reverse;
-    
+
 }
+
 .flex-padre img {
     width: 125px;
     justify-content: center;
     align-content: center;
 }
+
 .flex-padre div {
     background-color: #668593;
     border: 1px #121211 solid;
@@ -214,8 +220,9 @@ p {
 .formulario {
     background-color: #09094d;
     color: aqua;
-    
+
 }
+
 .menu {
     background-color: #080808;
     color: rgba(1, 1, 12, 0.664);
@@ -227,7 +234,8 @@ p {
     color: rgb(5, 5, 5);
     text-align: center;
 }
-.dia-padre{
+
+.dia-padre {
     /* display: flex;
     margin: 10px; */
     display: flex;
@@ -237,30 +245,36 @@ p {
     flex-direction: column;
     align-items: center;
 }
-img{
+
+img {
     display: flex;
 }
-.dia-padre ul{
+
+.dia-padre ul {
     text-align: center;
     align-items: center;
 }
-section h2{
+
+section h2 {
     background-color: rgb(49 130 141);
     color: rgb(5, 5, 5);
     text-align: center;
 }
-.ul h1{
+
+.ul h1 {
     background-color: rgb(49 130 141);
     color: rgb(5, 5, 5);
     text-align: center;
 }
-body h1{
+
+body h1 {
     background-color: rgb(49 130 141);
     color: rgb(5, 5, 5);
     text-align: center;
 
 }
-.videos{
+
+.videos {
     background-color: rgb(49 130 141);
     color: rgb(5, 5, 5);
     text-align: center;
@@ -273,9 +287,9 @@ body h1{
     padding: 0;
     color: rgb(3, 48, 48);
     font-size: 25px;
-    
 
-/* .variedad{ 
+
+    /* .variedad{ 
     justify-content: center;
     background-color: rgba(250, 2, 43, 0.329);
     text-align: center;
@@ -285,89 +299,95 @@ body h1{
     padding: 0;
     color: rgb(3, 48, 48);
     font-size: 20px; */
-} */
+}
 
-.variedad {
-  grid-column: 1 / span 2;
-  color: rgb(3, 48, 48);
+*/ .variedad {
+    grid-column: 1 / span 2;
+    color: rgb(3, 48, 48);
 
 }
 
 .flex-padre {
-  grid-column: 1 / -1;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 10px;
-} 
-.container footer{
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.container footer {
     background-color: rgb(60, 14, 119);
     color: rgb(5, 5, 5);
 }
 
-@media (max-width:768px){
-  .header-nosotros{
+@media (max-width:768px) {
+    .header-nosotros {
 
-    grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
 
-    grid-template-areas: 
+        grid-template-areas:
 
-      "img1"
+            "img1"
 
-      "img2"
+            "img2"
 
-      "img3"
+            "img3"
 
-      "img4"
+            "img4"
 
-      "img5"
+            "img5"
 
-      "img6";   
-}
-
+            "img6";
     }
 
-    a{  /*Todos los elementos <a>*/
-    
-     
-    
-        display:inline-block;
-        
-        padding:10px;
-        
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        
-        background-color: azure;
-        
-        color:rgb(10, 10, 60);
-        
-         
-        
-        }
-        a:hover{
-            background-color: cadetblue;
-            color: white;
-            font-weight: bold;
-            padding: 10px;
-            text-decoration: none;
-        }
-        a:link{ 
-    
-            background-color: rgb(55, 62, 68);
-        
-            color: rgb(250, 249, 255);
-        
-        }
-        a:active {
-    
-            background-color: yellow;
-        
-            color: black;
-        
-        }
-        a:visited {
-    
-            background-color: rgb(126, 61, 119);
-        
-            color: #ebe6e6;
-        
-        }
+}
+
+a {
+    /*Todos los elementos <a>*/
+
+
+
+    display: inline-block;
+
+    padding: 10px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color: azure;
+
+    color: rgb(10, 10, 60);
+
+
+
+}
+
+a:hover {
+    background-color: cadetblue;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:link {
+
+    background-color: rgb(55, 62, 68);
+
+    color: rgb(250, 249, 255);
+
+}
+
+a:active {
+
+    background-color: yellow;
+
+    color: black;
+
+}
+
+a:visited {
+
+    background-color: rgb(126, 61, 119);
+
+    color: #ebe6e6;
+
+}
