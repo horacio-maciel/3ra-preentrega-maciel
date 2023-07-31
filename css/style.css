@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Estilos para los encabezados h1 y h2 */
 h1 {
   text-align: center;
@@ -259,14 +260,9 @@ body h1 {
   background-color: #3c0e77;
   color: #050505; }
 
-/* Media query para dispositivos con ancho de pantalla menor a 768px */
-@media (max-width: 768px) {
+/* Media query para dispositivos con ancho de pantalla menor a 460px */
+@media (max-width: 460px) {
   /* Estilos para el encabezado con clase .header-nosotros */
   .header-nosotros {
     grid-template-columns: 1fr;
-    grid-template-areas: "img1"
- "img2"
- "img3"
- "img4"
- "img5"
- "img6"; } }
+    grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6"; } }
