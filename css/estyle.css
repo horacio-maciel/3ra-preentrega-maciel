@@ -1,14 +1,18 @@
-H1 {
-    
+h1 {
+    background-color: cornflowerblue;
+    padding: 80px;
+    background-image: linear-gradient(to right, rgb(9, 131, 161), purple);
     text-align: center;
     text-transform: uppercase;
     font-family: serif;
-    padding: 20px;
-    color: rgb(3, 48, 48);
 }
-h2{
-    font-family: 'Dancing Script', cursive;
-    padding: 30px;  
+
+h2 {
+    padding: 70px;
+    background-color: rgba(11, 247, 117, 0.808);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -19,8 +23,8 @@ h2{
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0%;
-
 }
+
 
 .contenedor {
     max-width: 1300px;
@@ -115,32 +119,6 @@ h2{
     flex-wrap: nowrap;
 }
 
-p {
-    background-color: #185c58;
-    color: white
-}
-
-.h1 {
-    background-color: rgba(10, 175, 187, 0.5);
-    text-align: center;
-    text-transform: uppercase;
-    font-family: serif;
-}
-
-.h2 {
-    background-color: rgba(11, 247, 117, 0.808);
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.h3 {
-    background-color: rgba(199, 241, 8, 0.781);
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 
 * {
     /* /* productos */
@@ -218,8 +196,11 @@ p {
 }
 
 .formulario {
-    background-color: #09094d;
-    color: aqua;
+    background-color: transparent;
+    padding: 75px;
+    background-color: cornflowerblue;
+    padding: 40px;
+    background-image: linear-gradient(to right, rgb(226, 202, 206), purple);
 
 }
 
@@ -230,9 +211,13 @@ p {
 }
 
 .form-1 {
-    background-color: rgb(49 130 141);
-    color: rgb(5, 5, 5);
+    background-color: rgb(67, 74, 75);
+    color: rgba(1, 1, 12, 0.664);
     text-align: center;
+
+
+
+
 }
 
 .dia-padre {
@@ -288,17 +273,6 @@ body h1 {
     color: rgb(3, 48, 48);
     font-size: 25px;
 
-
-    /* .variedad{ 
-    justify-content: center;
-    background-color: rgba(250, 2, 43, 0.329);
-    text-align: center;
-    text-transform: uppercase;
-    font-family:serif;
-    height: 100px;
-    padding: 0;
-    color: rgb(3, 48, 48);
-    font-size: 20px; */
 }
 
 */ .variedad {
@@ -318,6 +292,7 @@ body h1 {
     background-color: rgb(60, 14, 119);
     color: rgb(5, 5, 5);
 }
+
 
 @media (max-width:768px) {
     .header-nosotros {

@@ -5,60 +5,74 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="en canning bakery encontraras el regalo de papa en la seccion dia del padre con sabores únicos ">
   <title>dia del padre</title>
-  <link rel="stylesheet" href="../css/estyle.css" />
   <link rel="shortcut icon" href="../recursoshumanos/logo nuevo.png" type="image/x-icon" />
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/estyle.css" />
 </head>
 
 <body class="h1">
-  <h1>🧁🍰🎂🍪🍩dia del padre🍩🍪🎂🍰🧁</h1>
-  <img src="../recursoshumanos/logo-bakery.jpg" type="image/x-icon" />
-
-  <nav>
-    <ul>
-      <li>
-        <a href="../index.html">inicio</a>
-      </li>
-      <li>
-        <a href="./pages/dia-del-padre.html">❤️dia del padre❤️</a>
-      </li>
-      <li>
-        <a href="../pages/formulario.html">formulario</a>
-      </li>
-      <li>
-        <a href="../pages/nosotros.html">nosotros</a>
-      </li>
-      <li>
-        <a href="../pages/productos.html">productos</a>
-      </li>
-    </ul>
-  </nav>
-  <br>
-  <br>
-  <br>
+  <h1 class="animate__animated animate__bounce">🧁🍰🎂🍪🍩dia del padre🍩🍪🎂🍰🧁</h1>
+  <header class="header">
+    <a href="#">
+      <img src="../recursoshumanos/logo nuevo.png" alt="logo de la pasteleria" />
+    </a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+      
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li>
+              <a class="navbar-brand" href="../index.html">inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/dia_del_padre.html">❤️dia del padre❤️</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/formulario.html">formulario</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/nosotros.html">nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/productos.html">productos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
   <section class="h2">
     <h2>papá se merece el mejor box por su gran día</h2>
   </section>
   <section class="dia-padre">
-    <div class="img1">
+    <div data-aos="fade-down-right">
       <img src="../recursoshumanos/padre-1.jpg" alt="box 1">
     </div>
     <p>mejores precios</p>
-    <div class="img2">
+    <div data-aos="fade-down-right">
       <img src="../recursoshumanos/padre-2.jpg" alt="box 2">
     </div>
     <p>calidad premium</p>
-    <div class="img3">
+    <div data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">>
       <img src="../recursoshumanos/padre-4.jpg" alt="box 3">
     </div>
     <P>sabores únicos</P>
-    <div class="img4">
+    <div data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
       <img src="../recursoshumanos/padre-5.jpg" alt="box 4">
     </div>
     <P>hecho con amor</P>
-    <div class="img5">
+    <div data-aos="fade-left"
+    data-aos-anchor="#example-anchor"
+    data-aos-offset="500"
+    data-aos-duration="500">
       <img src="../recursoshumanos/padre-6.jpg" alt="box 5">
     </div>
   </section>
@@ -75,9 +89,6 @@
           <a href="https://www.instagram.com/canningbakery/?hl=es-la#">instagram</a>
         </div>
         <div class="col">
-          <a href="#">twitter</a>
-        </div>
-        <div class="col">
           <a
             href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fmessage%2FNDI34IQVLTC3F1&e=AT2C_bTjIQiIYC4deUkm79vmVRROfrEXemywJrOlpWXWXp4LLzKaao-C20E8eeaobsUS7gCos0k-7xvBcu0v4eauLAniWLcy">wathsapp</a>
         </div>
@@ -90,6 +101,12 @@
       </div>
     </div>
   </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 
 </html>

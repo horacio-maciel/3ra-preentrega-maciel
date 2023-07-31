@@ -1,56 +1,29 @@
-H1 {
-    
-    text-align: center;
-    text-transform: uppercase;
-    font-family: serif;
-    padding: 20px;
-    color: rgb(3, 48, 48);
-}
-h2{
-    font-family: 'Dancing Script', cursive;
-    padding: 30px;  
-}
+/* Estilos para los encabezados h1 y h2 */
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: serif;
+  padding: 20px;
+  color: #033030; }
 
+h2 {
+  font-family: 'Dancing Script', cursive;
+  padding: 30px; }
 
-.header li {
-    display: block;
-    background-color: rgba(217, 240, 14, 0.445);
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 0%;
-
-}
-
-.contenedor {
-    max-width: 1300px;
-    width: 500px;
-    height: 500px;
-    background-color: rgba(243, 243, 247, 0.637);
-    overflow-x: auto;
-    display: flex;
-    scroll-snap-type: x mandatory;
-    border: 2px solid rgb(107, 208, 233)
-}
-
-.contenedor {
-    width: 500%;
-    scroll-snap-align: center;
-}
-
-::-webkit-scrollbar {
-    display: none;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-
-
-}
-
+/* Estilos para el encabezado con clase .header */
 .header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  flex-direction: column;
+  align-content: stretch; }
+  .header img {
+    width: 150px; }
+  .header ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -59,131 +32,152 @@ h2{
     text-decoration: none;
     text-transform: uppercase;
     flex-direction: column;
-    align-content: stretch;
-}
+    align-content: stretch; }
 
-.header img {
-    width: 150px;
-}
+/* Estilos para los elementos de lista dentro del encabezado con clase .header */
+.header li {
+  display: block;
+  background-color: rgba(217, 240, 14, 0.445);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0%; }
 
-.header ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    flex-direction: column;
-    align-content: stretch;
-}
+/* Estilos para el contenedor */
+.contenedor {
+  max-width: 1300px;
+  width: 500px;
+  height: 500px;
+  background-color: rgba(243, 243, 247, 0.637);
+  overflow-x: auto;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  border: 2px solid #6bd0e9;
+  /* Estilos para el contenedor con clase .contenedor */
+  /* Estilos para la barra de desplazamiento */ }
+  .contenedor {
+    width: 500%;
+    scroll-snap-align: center; }
+  .contenedor::-webkit-scrollbar {
+    display: none; }
 
+/* Estilos globales para todos los elementos */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+/* Estilos para la clase .section con hijos h1 */
 .section h1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  color: rgba(223, 16, 16, 0.808);
+  text-decoration: none;
+  text-transform: uppercase; }
 
-    color: rgba(223, 16, 16, 0.808);
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
+/* Estilos para el encabezado con clase .header-nosotros */
 .header-nosotros {
-    background-color: #11b4e680;
-    border: 20px solid;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    height: 900px;
-    align-content: center;
-}
+  background-color: #11b4e680;
+  border: 20px solid;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 900px;
+  align-content: center; }
 
+/* Estilos para el pie de página con clase .footer */
 .footer {
-    background-color: rgba(13, 214, 90, 0.801);
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    list-style-type: none;
-    width: 600px;
-    justify-content: space-evenly;
-    flex-direction: column-reverse;
-    align-items: center;
-    flex-wrap: nowrap;
-}
+  background-color: rgba(13, 214, 90, 0.801);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  list-style-type: none;
+  width: 600px;
+  justify-content: space-evenly;
+  flex-direction: column-reverse;
+  align-items: center;
+  flex-wrap: nowrap; }
 
+/* Estilos para el párrafo */
 p {
-    background-color: #185c58;
-    color: white
-}
+  background-color: #185c58;
+  color: white; }
 
+/* Estilos para los encabezados con clase .h1, .h2 y .h3 */
 .h1 {
-    background-color: rgba(10, 175, 187, 0.5);
-    text-align: center;
-    text-transform: uppercase;
-    font-family: serif;
-}
+  background-color: rgba(10, 175, 187, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: serif; }
 
 .h2 {
-    background-color: rgba(11, 247, 117, 0.808);
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+  background-color: rgba(11, 247, 117, 0.808);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
 .h3 {
-    background-color: rgba(199, 241, 8, 0.781);
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+  background-color: rgba(199, 241, 8, 0.781);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
+/* Estilos para los elementos <a> */
+a {
+  display: inline-block;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: azure;
+  color: #0a0a3c; }
+  a:hover {
+    background-color: cadetblue;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none; }
+  a:link {
+    background-color: #373e44;
+    color: #faf9ff; }
+  a:active {
+    background-color: yellow;
+    color: black; }
+  a:visited {
+    background-color: #7e3d77;
+    color: #ebe6e6; }
 
-* {
-    /* /* productos */
-    margin: 1px;
-    padding: 1px;
-    font-family: sans-serif;
-    background-color: #11c5fcd7;
-    justify-items: center;
-    align-content: center;
-}
-
+/* Estilos para la clase .product con hijos ul */
 .product ul {
-    background-color: rgba(11, 247, 117, 0.808);
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    align-content: center;
-}
+  background-color: rgba(11, 247, 117, 0.808);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-content: center; }
 
+/* Estilos para el contenedor con clase .flex-padre y sus hijos */
 .flex-padre {
-    border: 5px solid;
-    padding: 10px;
-    display: flex;
-    height: 500px;
-    margin: 10px;
-    padding: 10px;
-    font-family: sans-serif;
-    display: flex;
-    margin: 1px;
-    flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: space-around;
-    flex-direction: column-reverse;
-
-}
-
-.flex-padre img {
+  border: 5px solid;
+  padding: 10px;
+  display: flex;
+  height: 500px;
+  margin: 10px;
+  padding: 10px;
+  font-family: sans-serif;
+  display: flex;
+  margin: 1px;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  flex-direction: column-reverse; }
+  .flex-padre img {
     width: 125px;
     justify-content: center;
-    align-content: center;
-}
-
-.flex-padre div {
+    align-content: center; }
+  .flex-padre div {
     background-color: #668593;
     border: 1px #121211 solid;
     padding: 11px;
@@ -192,202 +186,87 @@ p {
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-}
+    justify-content: center; }
 
-.header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.header img {
-    width: 150px;
-}
-
-.header ul {
-    display: flex;
-    list-style-type: none;
-    width: 350px;
-    justify-content: space-evenly;
-}
-
+/* Estilos para el formulario con clase .formulario */
 .formulario {
-    background-color: #09094d;
-    color: aqua;
+  background-color: #09094d;
+  color: aqua; }
 
-}
-
+/* Estilos para el menú con clase .menu */
 .menu {
-    background-color: #080808;
-    color: rgba(1, 1, 12, 0.664);
-    text-align: center;
-}
+  background-color: #080808;
+  color: rgba(1, 1, 12, 0.664);
+  text-align: center; }
 
+/* Estilos para el formulario con clase .form-1 */
 .form-1 {
-    background-color: rgb(49 130 141);
-    color: rgb(5, 5, 5);
-    text-align: center;
-}
+  background-color: #2b717a;
+  color: #080808;
+  text-align: center; }
 
+/* Estilos para el contenedor con clase .dia-padre y sus hijos */
 .dia-padre {
-    /* display: flex;
-    margin: 10px; */
-    display: flex;
-    margin: 10PX;
-    align-content: space-around;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-}
-
-img {
-    display: flex;
-}
-
-.dia-padre ul {
+  display: flex;
+  margin: 10PX;
+  align-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center; }
+  .dia-padre ul {
     text-align: center;
-    align-items: center;
-}
+    align-items: center; }
 
+/* Estilos para el encabezado <h2> dentro de section */
 section h2 {
-    background-color: rgb(49 130 141);
-    color: rgb(5, 5, 5);
-    text-align: center;
-}
+  background-color: #2a737c;
+  color: #050505;
+  text-align: center; }
 
+/* Estilos para el encabezado <h1> dentro de un elemento <ul> */
 .ul h1 {
-    background-color: rgb(49 130 141);
-    color: rgb(5, 5, 5);
-    text-align: center;
-}
+  background-color: #3a8994;
+  color: #050505;
+  text-align: center; }
 
+/* Estilos para el encabezado <h1> dentro del body */
 body h1 {
-    background-color: rgb(49 130 141);
-    color: rgb(5, 5, 5);
-    text-align: center;
+  background-color: #2b7d88;
+  color: #050505;
+  text-align: center; }
 
-}
-
+/* Estilos para el elemento con clase .videos */
 .videos {
-    background-color: rgb(49 130 141);
-    color: rgb(5, 5, 5);
-    text-align: center;
+  background-color: #36838d;
+  color: #050505;
+  text-align: center;
+  background-color: rgba(250, 2, 43, 0.329);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: serif;
+  height: 100px;
+  padding: 0;
+  color: #033030;
+  font-size: 25px; }
 
-    background-color: rgba(250, 2, 43, 0.329);
-    text-align: center;
-    text-transform: uppercase;
-    font-family: serif;
-    height: 100px;
-    padding: 0;
-    color: rgb(3, 48, 48);
-    font-size: 25px;
+/* Estilos para el elemento con clase .variedad */
+.variedad {
+  grid-column: 1 / span 2;
+  color: #033030; }
 
-
-    /* .variedad{ 
-    justify-content: center;
-    background-color: rgba(250, 2, 43, 0.329);
-    text-align: center;
-    text-transform: uppercase;
-    font-family:serif;
-    height: 100px;
-    padding: 0;
-    color: rgb(3, 48, 48);
-    font-size: 20px; */
-}
-
-*/ .variedad {
-    grid-column: 1 / span 2;
-    color: rgb(3, 48, 48);
-
-}
-
-.flex-padre {
-    grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 10px;
-}
-
+/* Estilos para el contenedor con clase .flex-padre dentro del elemento .container footer */
 .container footer {
-    background-color: rgb(60, 14, 119);
-    color: rgb(5, 5, 5);
-}
+  background-color: #3c0e77;
+  color: #050505; }
 
-@media (max-width:768px) {
-    .header-nosotros {
-
-        grid-template-columns: 1fr;
-
-        grid-template-areas:
-
-            "img1"
-
-            "img2"
-
-            "img3"
-
-            "img4"
-
-            "img5"
-
-            "img6";
-    }
-
-}
-
-a {
-    /*Todos los elementos <a>*/
-
-
-
-    display: inline-block;
-
-    padding: 10px;
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-    background-color: azure;
-
-    color: rgb(10, 10, 60);
-
-
-
-}
-
-a:hover {
-    background-color: cadetblue;
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-    text-decoration: none;
-}
-
-a:link {
-
-    background-color: rgb(55, 62, 68);
-
-    color: rgb(250, 249, 255);
-
-}
-
-a:active {
-
-    background-color: yellow;
-
-    color: black;
-
-}
-
-a:visited {
-
-    background-color: rgb(126, 61, 119);
-
-    color: #ebe6e6;
-
-}
+/* Media query para dispositivos con ancho de pantalla menor a 768px */
+@media (max-width: 768px) {
+  /* Estilos para el encabezado con clase .header-nosotros */
+  .header-nosotros {
+    grid-template-columns: 1fr;
+    grid-template-areas: "img1"
+ "img2"
+ "img3"
+ "img4"
+ "img5"
+ "img6"; } }
