@@ -1,18 +1,15 @@
-h1 {
-    background-color: cornflowerblue;
-    padding: 80px;
-    background-image: linear-gradient(to right, rgb(9, 131, 161), purple);
+H1 {
+    
     text-align: center;
     text-transform: uppercase;
     font-family: serif;
+    padding: 20px;
+    color: rgb(3, 48, 48);
+    background-image: radial-gradient(rgb(0, 225, 255),rgb(40, 32, 153));
 }
-
-h2 {
-    padding: 70px;
-    background-color: rgba(11, 247, 117, 0.808);
-    text-align: center;
-    text-transform: uppercase;
+h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;  
 }
 
 
@@ -23,8 +20,8 @@ h2 {
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0%;
-}
 
+}
 
 .contenedor {
     max-width: 1300px;
@@ -106,17 +103,46 @@ h2 {
 }
 
 .footer {
-    background-color: rgba(13, 214, 90, 0.801);
+    /* background-color: rgba(13, 214, 90, 0.801); */
     text-align: center;
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     list-style-type: none;
     width: 600px;
-    justify-content: space-evenly;
-    flex-direction: column-reverse;
     align-items: center;
     flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+}
+
+
+p {
+    background-color: #185c58;
+    color: white
+}
+
+.h1 {
+    background-color: rgba(10, 175, 187, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: serif;
+}
+
+.h2 {
+    background-color: rgba(11, 247, 117, 0.808);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h3 {
+    background-color: rgba(199, 241, 8, 0.781);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -128,6 +154,7 @@ h2 {
     background-color: #11c5fcd7;
     justify-items: center;
     align-content: center;
+    background-image: linear-gradient(rgb(40, 147, 209),rgb(73, 36, 238));
 }
 
 .product ul {
@@ -196,12 +223,19 @@ h2 {
 }
 
 .formulario {
-    background-color: transparent;
-    padding: 75px;
-    background-color: cornflowerblue;
-    padding: 40px;
-    background-image: linear-gradient(to right, rgb(226, 202, 206), purple);
-
+color: rgb(221, 233, 233);
+background-image: url(../recursoshumanos/muffins.jpg);
+margin: 50px;
+padding: 200px;
+font-family: sans-serif;
+background-color: #14baecd7;
+justify-items: center;
+align-content: stretch;
+display: flex;
+flex-direction: column;
+/* @media (: ;
+max-width: 768px); */
+align-items: center;
 }
 
 .menu {
@@ -211,13 +245,10 @@ h2 {
 }
 
 .form-1 {
-    background-color: rgb(67, 74, 75);
-    color: rgba(1, 1, 12, 0.664);
+    
+    color: rgb(5, 5, 5);
     text-align: center;
-
-
-
-
+    
 }
 
 .dia-padre {
@@ -273,6 +304,7 @@ body h1 {
     color: rgb(3, 48, 48);
     font-size: 25px;
 
+   
 }
 
 */ .variedad {
@@ -293,8 +325,7 @@ body h1 {
     color: rgb(5, 5, 5);
 }
 
-
-@media (max-width:866px) {
+@media (max-width:768px) {
     .header-nosotros {
 
         grid-template-columns: 1fr;
